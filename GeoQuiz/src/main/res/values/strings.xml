@@ -9,6 +9,9 @@
     <string name="question_americas">The Amazon River is the longest river in the Americas.</string>
     <string name="question_asia">Lake Baikal is the world\' s oldest and deepest freshwater lake.</string>
 
+    <!--On-screen text-->
+    <string name="warning_text">Are you sure you\'re a cheater?</string>
+
     <!--ImageButton descriptions-->
     <string name="previous_button_description">Previous button navigation.</string>
     <string name="next_button_description">Next button navigation.</string>
@@ -18,9 +21,17 @@
     <string name="false_button">False</string>
     <string name="previous_button">Previous</string>
     <string name="next_button">Next</string>
+    <string name="cheat_button">Cheat!</string>
+    <string name="show_answer_button">Show Answer</string>
+    <string name="show_build_button">View API</string>
 
     <!--Toasts-->
     <string name="question_toast">Question was clicked!</string>
     <string name="correct_toast">Correct!</string>
     <string name="incorrect_toast">Incorrect!</string>
+    <string name="judgment_toast">Baaaaad cheater!.!</string>
+    <string name="title_activity_cheat">Cheat</string>
+
+    <string name="hello_world">Hello world!</string>
+
 </resources>

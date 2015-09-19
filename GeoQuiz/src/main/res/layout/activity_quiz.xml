@@ -34,6 +34,19 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
+        <Button
+                android:id="@+id/cheat_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cheat_button"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
         <ImageButton
                 android:id="@+id/previous_button"
                 android:layout_width="wrap_content"
@@ -48,6 +61,18 @@
                 android:src="@drawable/arrow_right"
                 android:contentDescription="@string/next_button_description"/>
 
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom|center_horizontal">
+        <Button
+                android:id="@+id/build_version_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/show_build_button"/>
     </LinearLayout>
 
 </LinearLayout>
